@@ -4,10 +4,8 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
-COPY ..
+COPY . .
 
-RUN npm run build
-
-EXPOSE 80
+EXPOSE 8000
 
 CMD ["npm", "start"]
