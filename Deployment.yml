@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: hckrwebapp
-          image: akelarmrf/hackerweb:v1
+          image: akelarmrf/hckapp:v1
           ports:
             - containerPort: 8000
